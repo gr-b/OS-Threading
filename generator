@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+my $name = $ARGV[0];
+
+for($a = 0 ; $a < int($name) ; $a = $a + 1){
+	print chr(int(rand(50)+80));
+}

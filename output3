@@ -1,0 +1,65 @@
+Reading chunks:
+No MMap | File size:100 | Read size: 1 | Completion time:2                    ./doit ./proj4 testfiles/smallfile z 1 -s
+No MMap | File size:100 | Read size: 1024 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z 1024 -s
+No MMap | File size:100 | Read size: 4096 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z 4096 -s
+No MMap | File size:100 | Read size: 8192 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z 8192 -s
+No MMap | File size:1000 | Read size: 1 | Completion time:2                    ./doit ./proj4 testfiles/mediumfile z 1 -s
+No MMap | File size:1000 | Read size: 1024 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z 1024 -s
+No MMap | File size:1000 | Read size: 4096 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z 4096 -s
+No MMap | File size:1000 | Read size: 8192 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z 8192 -s
+No MMap | File size:10000 | Read size: 1 | Completion time:7                    ./doit ./proj4 testfiles/bigfile z 1 -s
+No MMap | File size:10000 | Read size: 1024 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z 1024 -s
+No MMap | File size:10000 | Read size: 4096 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z 4096 -s
+No MMap | File size:10000 | Read size: 8192 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z 8192 -s
+No MMap | File size:100000 | Read size: 1 | Completion time:32                    ./doit ./proj4 testfiles/reallybigfile z 1 -s
+No MMap | File size:100000 | Read size: 1024 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z 1024 -s
+No MMap | File size:100000 | Read size: 4096 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z 4096 -s
+No MMap | File size:100000 | Read size: 8192 | Completion time:4                    ./doit ./proj4 testfiles/reallybigfile z 8192 -s
+No MMap | File size:1000000 | Read size: 1 | Completion time:221                    ./doit ./proj4 testfiles/extremelybigfile z 1 -s
+No MMap | File size:1000000 | Read size: 1024 | Completion time:11                    ./doit ./proj4 testfiles/extremelybigfile z 1024 -s
+No MMap | File size:1000000 | Read size: 4096 | Completion time:12                    ./doit ./proj4 testfiles/extremelybigfile z 4096 -s
+No MMap | File size:1000000 | Read size: 8192 | Completion time:15                    ./doit ./proj4 testfiles/extremelybigfile z 8192 -s
+No MMap | File size:10000000 | Read size: 1 | Completion time:2162                    ./doit ./proj4 testfiles/reallyextremelybigfile z 1 -s
+No MMap | File size:10000000 | Read size: 1024 | Completion time:93                    ./doit ./proj4 testfiles/reallyextremelybigfile z 1024 -s
+No MMap | File size:10000000 | Read size: 4096 | Completion time:94                    ./doit ./proj4 testfiles/reallyextremelybigfile z 4096 -s
+No MMap | File size:10000000 | Read size: 8192 | Completion time:95                    ./doit ./proj4 testfiles/reallyextremelybigfile z 8192 -s
+
+MMap, unthreaded:
+Using MMap | File size:100 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z -s
+Using MMap | File size:1000 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z -s
+Using MMap | File size:10000 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z -s
+Using MMap | File size:100000 | Completion time:4                    ./doit ./proj4 testfiles/reallybigfile z -s
+Using MMap | File size:1000000 | Completion time:22                    ./doit ./proj4 testfiles/extremelybigfile z -s
+Using MMap | File size:10000000 | Completion time:96                    ./doit ./proj4 testfiles/reallyextremelybigfile z -s
+
+Threaded:
+Num Threads: 1 | File size:100 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z p1 -s
+Num Threads: 2 | File size:100 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z p2 -s
+Num Threads: 4 | File size:100 | Completion time:1                    ./doit ./proj4 testfiles/smallfile z p4 -s
+Num Threads: 8 | File size:100 | Completion time:2                    ./doit ./proj4 testfiles/smallfile z p8 -s
+Num Threads: 16 | File size:100 | Completion time:2                    ./doit ./proj4 testfiles/smallfile z p16 -s
+Num Threads: 1 | File size:1000 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z p1 -s
+Num Threads: 2 | File size:1000 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z p2 -s
+Num Threads: 4 | File size:1000 | Completion time:1                    ./doit ./proj4 testfiles/mediumfile z p4 -s
+Num Threads: 8 | File size:1000 | Completion time:2                    ./doit ./proj4 testfiles/mediumfile z p8 -s
+Num Threads: 16 | File size:1000 | Completion time:5                    ./doit ./proj4 testfiles/mediumfile z p16 -s
+Num Threads: 1 | File size:10000 | Completion time:1                    ./doit ./proj4 testfiles/bigfile z p1 -s
+Num Threads: 2 | File size:10000 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z p2 -s
+Num Threads: 4 | File size:10000 | Completion time:1                    ./doit ./proj4 testfiles/bigfile z p4 -s
+Num Threads: 8 | File size:10000 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z p8 -s
+Num Threads: 16 | File size:10000 | Completion time:2                    ./doit ./proj4 testfiles/bigfile z p16 -s
+Num Threads: 1 | File size:100000 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z p1 -s
+Num Threads: 2 | File size:100000 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z p2 -s
+Num Threads: 4 | File size:100000 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z p4 -s
+Num Threads: 8 | File size:100000 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z p8 -s
+Num Threads: 16 | File size:100000 | Completion time:2                    ./doit ./proj4 testfiles/reallybigfile z p16 -s
+Num Threads: 1 | File size:1000000 | Completion time:9                    ./doit ./proj4 testfiles/extremelybigfile z p1 -s
+Num Threads: 2 | File size:1000000 | Completion time:5                    ./doit ./proj4 testfiles/extremelybigfile z p2 -s
+Num Threads: 4 | File size:1000000 | Completion time:4                    ./doit ./proj4 testfiles/extremelybigfile z p4 -s
+Num Threads: 8 | File size:1000000 | Completion time:3                    ./doit ./proj4 testfiles/extremelybigfile z p8 -s
+Num Threads: 16 | File size:1000000 | Completion time:3                    ./doit ./proj4 testfiles/extremelybigfile z p16 -s
+Num Threads: 1 | File size:10000000 | Completion time:38                    ./doit ./proj4 testfiles/reallyextremelybigfile z p1 -s
+Num Threads: 2 | File size:10000000 | Completion time:19                    ./doit ./proj4 testfiles/reallyextremelybigfile z p2 -s
+Num Threads: 4 | File size:10000000 | Completion time:12                    ./doit ./proj4 testfiles/reallyextremelybigfile z p4 -s
+Num Threads: 8 | File size:10000000 | Completion time:12                    ./doit ./proj4 testfiles/reallyextremelybigfile z p8 -s
+Num Threads: 16 | File size:10000000 | Completion time:7                    ./doit ./proj4 testfiles/reallyextremelybigfile z p16 -s

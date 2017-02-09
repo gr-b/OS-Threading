@@ -1,0 +1,45 @@
+Script started on Thu 13 Oct 2016 10:01:00 PM EDT
+bash-3.2$ exitquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P8[8@reallyextremelybigfile l p8bash-3.2$ exit[K[1Pndxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ ls[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ ls[K[53@./doit ./proj4 testfiles/reallyextremelybigfile z p2 -sbash-3.2$ ls[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024
+File size: 100000 bytes.
+NOT USING MMAP
+Founds 1954 occurrences of the string: z
+bash-3.2$ ./proj4 testfiles/reallybigfile z 1024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K
+File size: 100000 bytes.
+NOT USING MMAP
+Founds 1954 occurrences of the string: z
+bash-3.2$ ./proj4 testfiles/reallybigfile z 1024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p8[8@reallyextremelybigfile l p8bash-3.2$ exit[K./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5
+File size: 100000 bytes.
+NOT USING MMAP
+Founds 1954 occurrences of the string: z
+bash-3.2$ ./proj4 testfiles/reallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[K
+File size: 100000 bytes.
+NOT USING MMAP
+Founds 1954 occurrences of the string: z
+bash-3.2$ ./proj4 testfiles/reallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100
+File size: 1000 bytes.
+NOT USING MMAP
+Founds 0 occurrences of the string: hello
+bash-3.2$ ./proj4 testfiles/mediumfile hello 100[5Preallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100mmap
+Using mmap.
+File size: 1000 bytes.
+Founds 0 occurrences of the string: hello
+bash-3.2$ ./proj4 testfiles/mediumfile hello mmap[1P100[5Preallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100mmap[2Pp2
+Creating 2 threads.
+File size: 1000 bytes.
+Founds 0 occurrences of the string: hello
+bash-3.2$ ./proj4 testfiles/mediumfile hello p2mmap[1P100[5Preallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100mmap[2Pp216
+Creating 16 threads.
+File size: 1000 bytes.
+Founds 0 occurrences of the string: hello
+bash-3.2$ ./proj4 testfiles/mediumfile hello p16[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[2Plscat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ ls[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100mmap[2Pp216[1P8
+Creating 8 threads.
+File size: 1000 bytes.
+Founds 0 occurrences of the string: hello
+bash-3.2$ ./proj4 testfiles/mediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ exit[Kquitvim typescript bash-3.2$ ls[Kcat typescript bash-3.2$ ls[Kquit[1Pendxit./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p816[1P2mmap[1P100[5Preallybigfile z 51024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024bash-3.2$ typescript[K./proj4 testfiles/reallybigfile z 1024[K5[Kmediumfile hello 100mmap[2Pp216[1P8[8@reallyextremelybigfile l p8bash-3.2$ exit[K./proj4 testfiles/reallyextremelybigfile l p8[8Pmediumfile hello p8[8@reallyextremelybigfile l p8[8Pmediumfile hello p8[8@reallyextremelybigfile l p8bash-3.2$ exit[K./proj4 testfiles/reallyextremelybigfile l p8
+Creating 8 threads.
+File size: 10000000 bytes.
+Founds 195394 occurrences of the string: l
+bash-3.2$ exit
+exit
+
+Script done on Thu 13 Oct 2016 10:02:46 PM EDT
